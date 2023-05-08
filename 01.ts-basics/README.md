@@ -1,46 +1,20 @@
-# Getting Started with Create React App
+# Typescript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Typescript is a "superset" to Javascript<br/>
+자바스크립트를 기반으로 하되 보다 더 확장된 프로그래밍 언어.<br/>
+뿌리는 자바스크립트다.
 
-## Available Scripts
+<br/>
+<br/>
 
-In the project directory, you can run:
+타입스크립트는 리액트와 달리 자바스크립트 라이브러리가 아니기 떄문에
+새로운 기능을 만들거나 확장하지는 않지만, 자바스크립트의 주요 문법보다 확장된 문법을 가진다.<br/>
 
-### `npm start`
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+가장 중요한 건 정적 타입(statically Typed) 특징을 갖는다는 것이다.<br/>
+자바스크립트는 원래 동적 타입(dynamically Typed) 언어이기 때문에 정적 타입 기능이 추가되었다.<br/>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<br/>
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+타입스크립트를 사용하면 코드를 실행하지 않고도 비슷한 종류의 오류와 의도치 않은 함수 사용을 잡아낼 수 있다. 런타임때 오류를 마주하는 것이아니라 코드를 작성하며 바로 오류를 잡아낼 수 있다.
